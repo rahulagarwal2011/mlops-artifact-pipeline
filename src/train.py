@@ -7,6 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score
+import warnings
 
 def load_config(config_path):
     with open(config_path, 'r') as f:
